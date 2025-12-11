@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helper for calendar cells */
+.calendar-day { @apply text-sm w-10 h-10 flex items-center justify-center rounded-full; }
